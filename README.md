@@ -1,7 +1,7 @@
 # sshbrute
 
 sshbrute provides: a modified txt file for dictionary attack
-```usage: sshbrute.py [-h] [-P PASSLIST] [-u USER] host
+usage: sshbrute.py [-h] [-P PASSLIST] [-u USER] host
 
 SSH Brute Python script.
 
@@ -15,6 +15,6 @@ optional arguments:
   -u USER, --user USER  Host username.
 
 
-to install: git clone https://github.com/Discordmodsbers/sshbrute
+to install: ```git clone https://github.com/Discordmodsbers/sshbrute
               cd sshbrute
               python3 sshbrute.py -h
