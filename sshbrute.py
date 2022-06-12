@@ -29,7 +29,6 @@ def is_ssh_open(hostname, username, password):
     except paramiko.SSHException:
         print(f"{BLUE}[*] Quota exceeded, retrying with delay...{RESET}")
         # sleep for a minute
-        time.sleep(1)
         return is_ssh_open(hostname, username, password)
     else:
         # connection was established successfully
