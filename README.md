@@ -16,7 +16,16 @@ optional arguments:
 ```
 pip install -r requirments.txt
 ```
+{Basic linux install}
 ```
+sudo apt update
+git clone https://github.com/Discordmodsbers/sshbrute
+cd sshbrute
+python3 sshbrute.py -h
+```
+{Termux}
+```
+pkg update apt
 git clone https://github.com/Discordmodsbers/sshbrute
 cd sshbrute
 python3 sshbrute.py -h
