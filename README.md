@@ -20,4 +20,4 @@ optional arguments:
 
 to install: ```git clone https://github.com/Discordmodsbers/sshbrute
                cd sshbrute
-               python3 sshbrute.py -h
+               python3 sshbrute.py -h```
