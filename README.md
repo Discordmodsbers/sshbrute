@@ -13,3 +13,7 @@ optional arguments:
   -P PASSLIST, --passlist PASSLIST
                         File that contain password list in each line.
   -u USER, --user USER  Host username.```
+
+to install: ```git clone https://github.com/Discordmodsbers/sshbrute
+               cd sshbrute
+               python3 sshbrute.py -h```
