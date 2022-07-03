@@ -26,6 +26,6 @@ $$\   $$ |$$ |  $$ |  \$$$  / $$ |
             |   | ,'       '---";   | .'       
             `----'              `---'         ''',' ',' ']
 # random item from list
-print(secrets.choice(foo))
+
 
 
