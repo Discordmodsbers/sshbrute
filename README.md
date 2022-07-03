@@ -14,7 +14,7 @@ optional arguments:
                         File that contain password list in each line.
   -u USER, --user USER  Host username.
 ```
-pip install -r requirments.txt
+pip install -r requirements.txt
 ```
 {Basic linux install}
 ```
