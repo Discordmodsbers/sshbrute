@@ -2,7 +2,7 @@ import paramiko
 import socket
 import time
 from colorama import init, Fore
-
+from bannergen import *
 # initialize colorama
 init()
 
@@ -38,6 +38,7 @@ def is_ssh_open(hostname, username, password):
 
 if __name__ == "__main__":
     import argparse
+    print(secrets.choice(foo))
     parser = argparse.ArgumentParser(description="SSH Bruteforce Python script.")
     parser.add_argument("host", help="Hostname or IP Address of SSH Server to bruteforce.")
     parser.add_argument("-P", "--passlist", help="File that contain password list in each line.")
